@@ -1,0 +1,401 @@
+body
+{
+	background-color: #d1feff;
+}
+.box-1
+{
+	background-color: white;
+	padding-bottom: 20px;
+}
+.teks-tengah
+{
+	text-align: center;
+}
+.img-judul
+{
+	width: 200px;
+	height: 90px;
+	margin-top: -10px;
+}
+.img-sosmed
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+.btnmat
+{
+	background-color: #d1feff;
+}
+.btnmat:hover
+{
+	background-color: #43b5b5;
+}
+.img-ig
+{
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+.text-utama
+{
+	color: #717a7a;
+}
+.teks-jdl1
+{
+	font-family: 'Secular One', sans-serif;
+	font-size: 30px;
+}
+.teks-jdl2
+{
+	font-family: 'Cairo', sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.teks-nav
+{
+	font-family: 'Cairo', sans-serif;
+	font-size: 18px;
+}
+.btn-nav-mobile
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.box-2
+{
+	text-align:center;
+}
+.box-3
+{
+	text-align:center;
+}
+.bacco
+{
+	background-color: #d1feff;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.box-utama
+{
+	width: 100%;
+	height: 250px;
+	background-image: url(../img/work.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.teks-jumb
+{
+	margin-top: auto;
+}
+.teks-materi
+	{
+		text-align: justify;
+	}
+.materi-content
+{
+	margin-top: 40px;
+}
+.content-tengah
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+.card
+{
+	margin-bottom: 30px;
+}
+.card1
+{
+	margin-bottom: 30px;
+}
+.card-img-top
+{
+	width: 130px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box-hilang
+{
+	height: 160px;
+}
+.img-materi-view
+{
+	width: 250px%px;
+	height: 200px;
+}
+.img-mtr-2
+{
+	width: 90%;
+	height: 70%;
+	border-radius: 4px;
+}
+.img-card-profile
+	{
+		width: 130px;
+		height: 150px;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+	}
+.img-code-1
+	{
+		width: 300px;
+		height: 190px;
+	}
+.img-materi-code
+	{
+		width: 300px;
+		height: 90px;
+	}
+.materi1
+{
+	display: none;
+}
+.name-up
+{
+	font-family: 'Simonetta', cursive;
+}
+.box-card-web
+{
+	background-color: rgba(0,0,0,);
+	border:0px;
+}
+.box-fot
+{
+	background-color: white;
+	height: 50px;
+	margin-top: -20px; 
+}
+.isi-footer
+{
+	margin-top: 30px;
+}
+.materi1
+{
+	animation-name : animasi_materi;
+	animation-duration: 1.5s;
+}
+@keyframes animasi_materi{
+	from{margin-top: 300px;}
+	to{margin-top: 0px;}
+}
+@media (min-width: 992px) {
+	.box-1
+	{
+		margin-left: 90px;
+		margin-right: 90px;
+		margin-top: 60px;
+		background-color: white;
+		padding-bottom: 30px;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px; 
+	}
+	.box-mtr
+	{
+		margin-left: 60px;
+		margin-right: 60px;
+	}
+	.img-judul
+	{
+		width: 400px;
+		height: 170px;
+		margin-top: -30px;
+	}
+	.box-2
+	{
+		margin-top: -40px;
+		text-align:left;
+	}
+	.box-3
+	{
+		margin-top: -20px;
+	}
+	.box-5
+	{
+		background-color: white;
+		margin-right: 60px;
+		margin-left: 60px;
+	}
+	.box-fot
+	{
+		background-color: white;
+		height: 30px;
+	}
+	.name-up
+	{
+		float: right;
+		font-family: 'Simonetta', cursive;
+	}
+	.name-down
+	{
+		margin-top: -20px;
+	}
+	.teks-center
+	{
+		text-align: center;
+	}
+	.box-utama
+	{
+		width: 100%;
+		height: 600px;
+		background-image: url(../img/work.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.card-img-top
+	{
+		width: 180px;
+		height: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.teks-materi
+	{
+		text-align: justify;
+	}
+	.teks-jumb
+	{
+		margin-top: 
+	}
+	.teks-jumb-1
+	{
+		font-size: 40px;
+		font-family: 'Secular One', sans-serif;
+	}
+	.teks-fot
+	{
+		margin-top: 10px;
+	}
+	.box-hilang
+	{
+		height: 440px;
+	}
+	.img-materi-view
+	{
+		width: 600px;
+		height: 300px;
+		margin-top: 30px;
+		margin-bottom: 70px;
+	}
+	.img-mtr-2
+	{
+		width: 90%;
+		height: 70%;
+	}
+	.img-code-1
+	{
+		width: 800px;
+		height: 570px;
+	}
+	.img-materi-code
+	{
+		width: 900px;
+		height: 200px;
+	}
+	.content-tengah
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.materi1
+	{
+		display: none;
+	}
+	.img-card-web
+	{
+		height: 270px;
+	}
+	.box-card-web
+	{
+		width: 450px;
+	}
+	.img-card-profile
+	{
+		width: 200px;
+		height: 220px;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.nav-link
+	{
+		margin-right: 60px;
+		margin-left: 10px;
+	}
+	.navbar
+	{
+		height: 65px;
+	}
+	.navHide
+	{
+		display: none;
+		margin-left: 20px;
+		margin-top: 200px;
+		position: fixed;
+		animation-name : animasi_navshow;
+		animation-duration: 1s;
+	}
+	@keyframes animasi_navshow{
+	from{margin-left: -100px}
+	to{margin-left: 20px}
+	}
+
+
+	.box-side-nav
+	{
+		width: 50px;
+		background-color: #d1feff;
+		border-radius:10px; 
+	}
+	.ico
+	{
+		width: 20px;
+		height: 20px;
+		transition-duration: 0.3s;
+	}
+	.side-ef
+	{
+		margin-top: 10px;
+		margin-bottom: 10px;
+		width: 100%;
+	}
+	.ico:hover
+	{
+		width: 23px;
+		height: 23px;
+	}
+	.box-fot
+	{
+		margin-left: 90px;
+		margin-right: 90px;
+		background-color: white;
+		height: 50px;
+		border-bottom-left-radius: 10px;
+		border-bottom-right-radius: 10px;
+		margin-bottom: 10px;
+		margin-top: -20px; 
+	}
+}
+
+/*efek*/
+.displayNone
+{
+	display: none;
+}
+.displayBlock
+{
+	display: block;
+}
+
+
+
+@media (max-width: 991.98px) { 
+	.side-nav
+	{
+		display: none !important;
+	}
+ }

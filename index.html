@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <!-- My Css -->
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&family=Kavivanar&family=Simonetta:wght@900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Syahril Saputra</title>
+  </head>
+  <body class="body">
+
+   <div class="box-1"> 
+
+       <div class="navHide box-side-nav">
+         <center>
+            <div class="side-ef content-tengah side-nav">
+              <a class="page-scroll" href="#home"><img class="ico" src="img/home-run.png"></a>
+            </div>
+            <div class="side-ef content-tengah side-nav">
+              <a class="page-scroll" href="#otherweb"><img class="ico" src="img/book.png"></a>
+            </div>
+            <div class="side-ef content-tengah side-nav">
+              <a class="page-scroll" href="#about"><img class="ico" src="img/user.png"></a>
+            </div>
+         </center>
+       </div>
+
+     <div class="container"> 
+      <section id="home">
+        <div class="judul teks-tengah">
+          <img src="img/judul.png" class="img-judul">
+        </div>
+       <div class="box-2">
+         <div class="row">
+           <div class="col-md-6">
+            <div class="">
+              <img src="img/fb4.png" class="img-sosmed">
+              <img src="img/ig7.png" class="img-ig">
+              <img src="img/wa.png" class="img-sosmed">
+             <!-- <p><h4 class="text-utama name-down">D121181005</h4></p> -->
+            </div>  
+           </div>
+           <div class="col-md-6">
+            <div class="box-3">
+              <div class="ccc">
+                <p><h4 class="text-utama name-up">Syahril Saputra</h4></p>
+              </div>
+            </div>
+           </div>
+         </div>
+       </div>
+      </section>
+
+       <nav class="navbar navbar-expand-lg navbar-light bacco">
+        <button class="navbar-toggler btn-nav-mobile" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav content-tengah">
+            <li class="nav-item">
+              <a class="nav-link page-scroll teks-nav" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll teks-nav" href="#otherweb">Bacaan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll teks-nav" href="#about">Tentang Saya</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="box-utama">
+        <div class="teks-jumb teks-tengah teks-center">
+          <div class="box-hilang"> 
+            
+          </div>
+          <p class="teks-jumb-1">Evaluation Plan dalam Database</p>
+          <!-- <p>Senyum adalah Ibadah</p> -->
+        </div>
+      </div>
+
+      <hr>
+      <section class="mt-4" id="otherweb">
+          <p class="teks-center teks-tengah teks-jdl1">Evaluation Plan Dalam MySQL</p>
+           <div class="box-5">
+            <center>
+              <img src="img/database2.png" class="img-materi-view">
+            </center>
+              <p class="teks-materi">Pada awalnya, query dapat dieksekusi dengan baik  lancar, namun seiring dengan berjalannya waktu, eksekusi query terasa lambat entah karena query yang tidak optimal atau data yang semakin besar. Jika sudah demikian, maka mau tidak mau kita harus melakukan optimasi query MySQL. Kenapa? karena hal ini akan berdampak signifikan bagi kelangsungan aplikasi kita.</p>
+           
+              <p class="teks-materi">Salah satu cara yang bisa digunakan untuk optimasi query adalah dengan melihat Evaluation plan dari database kita. Evaluation plan adalah dokumen tertulis yang menjelaskan bagaimana seorang programmer akan melihat dan mengevaluasi programnya, serta bagaimana programmer menggunakan hasil dari evaluasi untuk memperbaiki program yang di buat dan pengambilan keputusan terhadap program tersebut. Sebagian besar sistem database menyediakan cara untuk melihat evaluation plan yang dipilih untuk dijalankan queri tertentu. Biasanya yang terbaik adalah menggunakan GUI yang disediakan dengan sistem database untuk melihat rencana evaluasi. Namun, jika Anda menggunakan commandline interface, banyak database mendukung variasi dari perintah Explain < query > yang menampilkan execution plan yang dipilih untuk queri yang ditentukan. Pada MySQL cara menampilkan evaluation plan menggunakan syntax EXPLAIN.</p>
+              <p class="teks-jdl2">Berikut contoh menampilkan evaluation plan dengan EXPLAIN pada MySQL.</p>
+              <p class="teks-materi">Sebelum memulai, siapkan terlebih dahulu database yang akan digunakan. Disini saya sudah membuat database dengan nama tugasbasdatakhir dan berisi 3 tabel yaitu tabel jurusan, mahasiswa, dan penerima_beasiswa. Atau kalian bisa membuat database seperti yang saya buat dengan menggunakan code berikut : </p>
+              <center>
+                <img src="img/code db1.png" class="img-code-1">
+              </center>
+              <p class="teks-jdl2">Ini adalah code yang saya gunakan untuk melihat Evaluation plan pada MySQL</p>
+              <center>
+                <img src="img/explain1.png" class="img-materi-code">
+              </center>
+              <p class="teks-jdl2">Ini adalah hasil yang tampil setelah code di atas dieksekusi</p>
+              <center>
+                <img src="img/hasil1.png" class="img-materi-code">
+              </center>
+              <p class="teks-jdl2">Penjelasan dari tabel di atas.</p>
+
+              <p>1. id</p>
+                <ul>
+                  <p class="teks-materi">Kolom id berisi identifier dari tabel, Pada contoh di atas keduanya bernilai 1.</p>
+                </ul>
+              <p>2. select_type</p>
+                <ul>
+                  <p class="teks-materi">Kolom select_type menunjukkan tipe select yang digunakan. Pada contoh di atas keduanya simple, ini berarti bahwa tipe select yang digunakan keduanya adalah tipe select sederhana.</p>
+                </ul>
+              <p>3. table</p>
+                <ul>
+                  <p class="teks-materi">Kolom table menunjukkan inisalisasi nama dari tabel yang kita gunakan pada code kita, Tabel pertama berisi m yang merupakan inisalisasi nama dari tabel mahasiswa, sedangkan tabel dua isinya p yang meruoakan inisalisasi nama dari tabel penerima_beasiswa.</p>
+                </ul>
+              <p>4. type</p>
+                <ul>
+                  <p class="teks-materi">Kolom type berisi informasi tentang join type yang digunakan. Pada hasil diatas terdapat dua tipe yaitu tipe ALL dan ref. Untuk tipe ALL adalah Pemindaian tabel lengkap dilakukan untuk setiap kombinasi baris dari tabel sebelumnya. Untuk tipe ref adalah Semua baris dengan nilai indeks yang cocok dibaca dari tabel ini untuk setiap kombinasi baris dari tabel sebelumnya.  Ref digunakan jika gabungan (join) hanya menggunakan awalan leftmost dari key atau jika key bukan indeks PRIMARY KEY atau UNIK (dengan kata lain, jika bergabung tidak dapat memilih baris tunggal berdasarkan nilai kunci). Jika kunci yang digunakan hanya cocok dengan beberapa baris, ini adalah tipe gabungan yang baik.</p>
+                </ul>
+              <p>5. possible_keys</p>
+                <ul>
+                  <p class="teks-materi">Kolom possible_key menunjukkan key dalam tabel yang bisa digunakan untuk menemukan baris dalam tabel. Hasil di atas menujukkan null dan primary.</p>
+                </ul>
+               <p>6. key</p>
+                <ul>
+                  <p class="teks-materi">Kolom possible_key menunjukkan nama key yang digunakan untuk mengambil baris. Pada contoh di atas menujukkan null dan primary.</p>
+                </ul>
+               <p>7. key_len</p>
+                <ul>
+                  <p class="teks-materi">Kolom key_len menunjukkan panjang key yang digunakan MySQL. Pada hasil di atas baris pertama bernilai Null karena tidak ada key yang digunakan sedangkan baris kedua bernilai 42</p>
+                </ul>
+                <p>8. ref</p>
+                <ul>
+                  <p class="teks-materi">Kolom ref menunjukkan nama kolom dari tabel yang diproses dengan key. Pada hasil eksekusi di atas baris pertama bernilai Null karena tidak ada yang diproses dengan key sedangkan baris kedua menunjukkan kolom NIM pada table m dan database tgsbasdatakhir.</p>
+                </ul>
+               <p>9. row</p>
+                <ul>
+                  <p class="teks-materi">Kolom row menunjukkan jumlah baris yang di temukan ketika code di atas dijalankan. Pada hasil di atas tabel m memilki jumlah row 3 dan tabel p memiliki jumlah row 1.</p>
+                </ul>
+              <p>10. Extra</p>
+                <ul>
+                  <p class="teks-materi">Kolom Extra menunjukkan informasi tambahan tentang bagaimana MySQL mengeksekusi query. Pada hasil di atas tabel m tidak ada isinya dan pada tabel p terdapat using where, using index, dan not exist. using where berarti bahwa dalam query yang kita buat kita menggunakan where (WHERE p.nim IS NULL). using index berarti bahwa untuk mengambil atau memperoleh informasi dari tabel p, kita hanya menggunakan index. Not exist berarti bahwa hentikan untuk mencari baris lain jika sudah memperoleh baris yang tepat</p>
+                </ul>
+          </div>
+          
+      </section>
+
+      <hr>
+      <section id="about">
+         <p class="teks-center teks-tengah teks-jdl1">Tentang Saya</p>
+        <div class="card card1 content-tengah" style="width: 18rem;">
+          <img src="img/user2.png" class="img-card-profile" alt="...">
+          <div class="card-body">
+            <center>
+              <h5 class="card-title">Syahril Saputra</h5>
+              <h5 class="card-title">D121181005</h5>
+              <h5 class="card-title">Teknik Informatika</h5>
+            </center>
+          </div>
+        </div>
+      </section>
+     </div>
+   </div>
+
+
+   <footer>
+     <div class="box-fot">
+    <div class="container isi-footer">
+      <p class="teks-tengah teks-center teks-fot">Copyright By Syahril Saputra <script>document.write(new Date().getFullYear());</script></p>
+    </div> 
+   </div>
+   </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html> 
